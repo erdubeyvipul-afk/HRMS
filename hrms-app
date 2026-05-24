@@ -1,0 +1,65 @@
+hrms-app/
+├── server.js                 # Express server entry
+├── package.json             # Root package.json
+├── .env.example
+├── .gitignore
+├── README.md
+├── backend/
+│   ├── models/
+│   │   ├── index.js
+│   │   ├── User.js
+│   │   ├── Attendance.js
+│   │   ├── Leave.js
+│   │   ├── Timesheet.js
+│   │   ├── Training.js
+│   │   ├── PerformanceReview.js
+│   │   ├── Survey.js
+│   │   ├── SurveyResponse.js
+│   │   └── Payroll.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── users.js
+│   │   ├── attendance.js
+│   │   ├── leaves.js
+│   │   ├── timesheets.js
+│   │   ├── training.js
+│   │   ├── performance.js
+│   │   ├── surveys.js
+│   │   ├── payroll.js
+│   │   └── analytics.js
+│   ├── middleware/
+│   │   └── auth.js
+│   └── config/
+│       └── database.js
+├── frontend/
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── public/
+│   │   └── index.html
+│   └── src/
+│       ├── index.js
+│       ├── index.css
+│       ├── App.js
+│       ├── components/
+│       │   ├── Layout.js
+│       │   ├── PrivateRoute.js
+│       │   └── Charts.js
+│       ├── pages/
+│       │   ├── Login.js
+│       │   ├── Dashboard.js
+│       │   ├── Attendance.js
+│       │   ├── LeaveManagement.js
+│       │   ├── Timesheets.js
+│       │   ├── Training.js
+│       │   ├── Performance.js
+│       │   ├── Surveys.js
+│       │   ├── Payroll.js
+│       │   ├── Analytics.js
+│       │   ├── AdminPanel.js
+│       │   └── Reports.js
+│       ├── context/
+│       │   └── AuthContext.js
+│       └── utils/
+│           └── api.js
+└── render.yaml              # Optional: Render Blueprint
